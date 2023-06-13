@@ -1,0 +1,39 @@
+*{
+    height: auto;
+    width: auto;
+    background-color: beige;
+}
+#gameCont {
+}
+#gameHeadingBox{
+    text-align: center;
+}
+
+#titleCont{
+    
+}
+.title{
+
+}
+.gameLogo{
+    height: 50px;
+}
+#titleContent{
+
+}
+#gameArea{
+
+}
+.buttons{
+    
+}
+.btn{
+    background-color: white;
+}
+#resultCont{}
+#choiceCont{}
+#resultCont{}
+.rst{
+    background-color: aqua;
+}
+#resultText{}
