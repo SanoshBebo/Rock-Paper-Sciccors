@@ -9,47 +9,58 @@
 
   <body>
     <div id="gameCont">
-      <div id="gameHeadingBox">
+
+
         <div id="titleCont">
           <h1 class="title">Rock-Paper-Scissors</h1>
           <img class="gameLogo" src="images/rock-paper-scissors.png" />
+          <p class="contentText">First to 5 wins!</p>
         </div>
-        <div id="titleContent">
-          <p>First to 5 wins!</p>
-        </div>
-      </div>
+
+
+
 
       <div id="gameArea">
         <div class="buttons">
           <button class="btn" id="Rock">
             <img src="images/rock.png" />
-            <p class="">Rock</p>
           </button>
-
+          <p class="btnName">Rock</p>
+        </div>
+        <div class="buttons">
           <button class="btn" id="Paper">
             <img src="images/paper.png" />
-            <p class="">Paper</p>
           </button>
-
+          <p class="btnName">Paper</p>
+        </div>
+        <div class="buttons">
           <button class="btn" id="Scissors">
             <img src="images/scissor.png" />
-            <p class="">Scissors</p>
           </button>
+          <p class="btnName">Scissors</p>
         </div>
       </div>
+      
 
-      <div id="resultCont">
-        <div id="choiceCont">
-          <h2 id="playerText">player:</h2>
+      <div id="choiceCont">
+        <div id="playerCont" >
+          <h2 id="playerText">Score:</h2>
           <p id="playerScore"></p>
-          <h2 id="computerText">computer:</h2>
+        </div>
+        <div id="computerCont">
+          <h2 id="computerText">Score:</h2>
           <p id="computerScore"></p>
         </div>
-        <div id="resultCont">
+      </div>
+   
+        <div id="result">
           <h1 id="resultText"></h1>
           <button class="rst">reset</button>
         </div>
-      </div>
+
+
+
+
     </div>
 
     <script src="script.js"></script>

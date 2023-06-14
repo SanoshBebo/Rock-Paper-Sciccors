@@ -68,7 +68,7 @@ function game() {
   ) {
     resultText.textContent = "player wins";
     playerCount += 1;
-    playerScore.textContent = `player: ${playerCount}`;
+    playerScore.textContent = `Score: ${playerCount}`;
     if (playerCount == 5) {
       resultText.textContent = "you won the game!!!";
       disabledButtons();
@@ -76,7 +76,7 @@ function game() {
   } else {
     resultText.textContent = "computer wins";
     computerCount += 1;
-    computerScore.textContent = `computer: ${computerCount}`;
+    computerScore.textContent = `Score: ${computerCount}`;
     if (computerCount == 5) {
       resultText.textContent = "computer won the game!!!";
       disabledButtons();
