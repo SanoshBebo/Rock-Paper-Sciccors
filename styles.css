@@ -12,32 +12,26 @@ button {
     border: none;
 }
 
-
 #gameCont {
 margin: 5px;
 }
 
-
-
 #titleCont{
-    text-align: center;
-    
+    text-align: center; 
 }
-.title{
 
-}
 .gameLogo{
     height: 75px;
     animation: mymove 5s infinite;
 }
+
 @keyframes mymove {
     100% {transform: rotate(360deg);}
 }
+
 .contentText{
     font-size: large;
 }
-
-
 
 #gameArea{
     display: flex;
@@ -50,16 +44,16 @@ margin: 5px;
     text-align: center;
 }
 
-.btn>img:hover{
+.btn>img:hover {
     transform: scale(1.5);
     cursor: pointer;
     }
+
 
 .btn>img{
     height: 70px;
     width: 70px;
     transition: transform .2s;
-
     background-color: white;
     
 }
@@ -84,6 +78,7 @@ margin: 5px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 25px;
 }
 .rst{
     background-color: white;
@@ -94,5 +89,5 @@ margin: 5px;
 .rst:hover{
     background-color: lightgreen;
     color: white;
+    cursor: pointer;
 }
-#resultText{}

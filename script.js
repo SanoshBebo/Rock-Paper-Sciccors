@@ -38,8 +38,10 @@ choiceBtns.forEach((button) =>
 rstbtn.addEventListener("click", () => {
   playerCount = 0;
   computerCount = 0;
-  playerScore.textContent = `player: ${playerCount}`;
-  computerScore.textContent = `computer: ${computerCount}`;
+  playerText.textContent = `player: `;
+  computerText.textContent = `computer: `;
+  playerScore.textContent = `Score: ${playerCount}`;
+  computerScore.textContent = `Score: ${computerCount}`;
   enabledButtons();
 });
 
